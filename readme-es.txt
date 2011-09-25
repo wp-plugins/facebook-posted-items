@@ -5,12 +5,7 @@ Fepe - http://www.fepe55.com.ar/blog/
 CARACTERÍSTICAS
 Este plugin recupera los elementos publicados en Facebook y los muestra en una lista con sus correspondientes links y comentarios.
 
-Si no sabes donde conseguir la URL (dirección web) que se necesita, ve a Facebook, luego a "Elementos Publicados" en la barra lateral derecha. Luego, dependiendo de lo que quieras mostrar, haz uno de los siguientes:
-- Para mostrar los elementos publicados por tus amigos: Haz click en "Elementos publicados por mis amigos" sobre la derecha, debajo de "Suscríbete a Artículos Publicados", y copia esa dirección.
-- Para mostrar tus elementos publicados: Haz click en "Mis elementos publicados" en la parte superior de la pantalla y luego haz click en "Mis elementos publicados" sobre la derecha, debajo de "Suscríbete a Artículos Publicados", y copia esa dirección.
-
-"Elementos publicados por mis amigos" debería verse así: "http://www.facebook.com/feeds/share_friends_posts.php?id=(algunos-numeros)&key=(un-codigo)&format=rss20"
-"Mis elementos publicados" debería verse así: "http://www.facebook.com/feeds/share_posts.php?id=(algunos-numeros)&viewer=(algunos-numeros)&key=(un-codigo)&format=rss20"
+Facebook cambia constantemente las URL, pero por ahora se pueden conseguir siguiendo los pasos de este sitio: http://www.kristi-barrow.com/facebook-rss-feeds-what-is-available/
 
 
 INSTALACIÓN
@@ -37,8 +32,10 @@ PARÁMETROS
 
 
 VERSIONES PREVIAS
--> 0.3 - 2008.12.14 - Arreglé un problema del charset en la descripción.
--> 0.2 - 2008.12.11 - Cambié 'explode' por 'RegEx' gracias a NeoEGM.
+-> 0.4 - 2011.09.25 - Modificación en la RegEx (gracias a MAN por la sugerencia)
+-> 0.4b - 2010.01.06 - Reemplazo de fetch_rss (deprecated) por fetch_feed.
+-> 0.3 - 2008.12.14 - Arreglo en un problema del charset en la descripción.
+-> 0.2 - 2008.12.11 - Cambio de 'explode' por 'RegEx' gracias a NeoEGM.
 -> 0.1 - 2008.12.10 - Nacimiento del plugin. Usando 'explode'.
 
 

@@ -5,12 +5,7 @@ Fepe - http://www.fepe55.com.ar/blog/
 FEATURES
 This plugin fetches posted items from Facebook and displays them in an unordered list with proper links and comments.
 
-If you don't know how to get the proper URL, go to Facebook, and then to "Posted Items" on the right sidebar. Then, depending on which feed you want, do one of the following:
-- To display your friends posted items: click on "My Friends' Posted Items" on the right, under "Subscribe to Posted Items" and copy that URL.
-- To display your posted item: click on "My Posted Items" on the top of the page and then click on "My Posted Items" on the right, under "Subscribe to Posted Items" and copy that URL.
-
-"My Friend's Posted Items" should look like this: "http://www.facebook.com/feeds/share_friends_posts.php?id=(some-numbers)&key=(some-code)&format=rss20"
-"My Posted Items" should look like this: "http://www.facebook.com/feeds/share_posts.php?id=(some-numbers)&viewer=(some-numbers)&key=(some-code)&format=rss20"
+Facebook keeps on changing the URL for the feeds, but for now you can find the one you want following the steps on this website: http://www.kristi-barrow.com/facebook-rss-feeds-what-is-available/
 
 
 INSTALLATION
@@ -37,6 +32,9 @@ PARAMETERS
 
 
 VERSION HISTORY
+-> 0.4 - 2011.09.25 - Changed the RegEx (thanks to MAN for the suggestion)
+-> 0.4b - 2010.01.06 - Changed fetch_rss (deprecated) to fetch_feed.
+-> 0.3 - 2008.12.14 - Corrected the charset.
 -> 0.2 - 2008.12.11 - Changed explode to RegEx thanks to NeoEGM
 -> 0.1 - 2008.12.10 - The plugin was born. Using explode.
 
