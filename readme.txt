@@ -4,7 +4,7 @@ Donate link: http://www.fepe55.com.ar/blog/faq/#donaciones
 Tags: Facebook, Posted Items
 Requires at least: 2.0.2
 Tested up to: 3.2.1
-Stable tag: 0.4
+Stable tag: 0.4.1
 
 This plugin fetches posted items from Facebook and displays them in an unordered list with proper links and comments.
 

@@ -32,6 +32,7 @@ PARAMETERS
 
 
 VERSION HISTORY
+-> 0.4.1 - 2011.09.28 - Fixed a minor bug
 -> 0.4 - 2011.09.25 - Changed the RegEx (thanks to MAN for the suggestion)
 -> 0.4b - 2010.01.06 - Changed fetch_rss (deprecated) to fetch_feed.
 -> 0.3 - 2008.12.14 - Corrected the charset.

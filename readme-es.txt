@@ -32,7 +32,8 @@ PARÁMETROS
 
 
 VERSIONES PREVIAS
--> 0.4 - 2011.09.25 - Modificación en la RegEx (gracias a MAN por la sugerencia)
+-> 0.4.1 - 2011.09.28 - Pequeño bug solucionado.
+-> 0.4 - 2011.09.25 - Modificación en la RegEx (gracias a MAN por la sugerencia).
 -> 0.4b - 2010.01.06 - Reemplazo de fetch_rss (deprecated) por fetch_feed.
 -> 0.3 - 2008.12.14 - Arreglo en un problema del charset en la descripción.
 -> 0.2 - 2008.12.11 - Cambio de 'explode' por 'RegEx' gracias a NeoEGM.
